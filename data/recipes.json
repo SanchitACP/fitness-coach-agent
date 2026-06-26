@@ -1,1 +1,359 @@
-[]
+[
+  {
+    "recipe_id": "oats_whey_banana",
+    "name": "Oats + Whey + Banana",
+    "macros": {"protein_g": 36, "carbs_g": 68, "fat_g": 10},
+    "calories": 506,
+    "ingredients": [
+      {"item": "rolled oats", "qty": 60, "unit": "g"},
+      {"item": "whey protein", "qty": 1, "unit": "scoop"},
+      {"item": "banana", "qty": 1, "unit": "medium"},
+      {"item": "milk", "qty": 250, "unit": "ml"}
+    ],
+    "prep_time_min": 5,
+    "cuisines": ["American"],
+    "restrictions_safe": ["vegetarian"],
+    "restrictions_contains": ["dairy", "gluten"],
+    "meal_types": ["breakfast"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "greek_yogurt_berry_bowl",
+    "name": "Greek Yogurt Berry Bowl",
+    "macros": {"protein_g": 25, "carbs_g": 30, "fat_g": 5},
+    "calories": 265,
+    "ingredients": [
+      {"item": "greek yogurt", "qty": 200, "unit": "g"},
+      {"item": "mixed berries", "qty": 100, "unit": "g"},
+      {"item": "honey", "qty": 1, "unit": "tbsp"}
+    ],
+    "prep_time_min": 5,
+    "cuisines": ["American"],
+    "restrictions_safe": ["vegetarian", "gluten_free"],
+    "restrictions_contains": ["dairy"],
+    "meal_types": ["breakfast", "snack"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "veggie_egg_scramble",
+    "name": "Veggie Egg Scramble",
+    "macros": {"protein_g": 24, "carbs_g": 8, "fat_g": 16},
+    "calories": 272,
+    "ingredients": [
+      {"item": "eggs", "qty": 3, "unit": "large"},
+      {"item": "spinach", "qty": 1, "unit": "cup"},
+      {"item": "bell pepper", "qty": 0.5, "unit": "cup"},
+      {"item": "cheddar cheese", "qty": 20, "unit": "g"}
+    ],
+    "prep_time_min": 10,
+    "cuisines": ["American"],
+    "restrictions_safe": ["vegetarian", "gluten_free"],
+    "restrictions_contains": ["eggs", "dairy"],
+    "meal_types": ["breakfast"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "protein_pancakes",
+    "name": "Protein Pancakes",
+    "macros": {"protein_g": 30, "carbs_g": 45, "fat_g": 9},
+    "calories": 381,
+    "ingredients": [
+      {"item": "oat flour", "qty": 50, "unit": "g"},
+      {"item": "whey protein", "qty": 1, "unit": "scoop"},
+      {"item": "egg", "qty": 1, "unit": "large"},
+      {"item": "milk", "qty": 120, "unit": "ml"}
+    ],
+    "prep_time_min": 15,
+    "cuisines": ["American"],
+    "restrictions_safe": ["vegetarian"],
+    "restrictions_contains": ["eggs", "dairy", "gluten"],
+    "meal_types": ["breakfast"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "chicken_stir_fry_asian",
+    "name": "Chicken Stir Fry",
+    "macros": {"protein_g": 38, "carbs_g": 45, "fat_g": 10},
+    "calories": 422,
+    "ingredients": [
+      {"item": "chicken breast", "qty": 6, "unit": "oz"},
+      {"item": "jasmine rice", "qty": 150, "unit": "g"},
+      {"item": "mixed vegetables", "qty": 1, "unit": "cup"},
+      {"item": "soy sauce", "qty": 2, "unit": "tbsp"}
+    ],
+    "prep_time_min": 20,
+    "cuisines": ["Asian"],
+    "restrictions_safe": ["dairy_free"],
+    "restrictions_contains": ["meat", "soy", "gluten"],
+    "meal_types": ["lunch", "dinner"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "chicken_parmesan_italian",
+    "name": "Chicken Parmesan",
+    "macros": {"protein_g": 45, "carbs_g": 40, "fat_g": 18},
+    "calories": 502,
+    "ingredients": [
+      {"item": "chicken breast", "qty": 7, "unit": "oz"},
+      {"item": "marinara sauce", "qty": 120, "unit": "g"},
+      {"item": "mozzarella cheese", "qty": 40, "unit": "g"},
+      {"item": "breadcrumbs", "qty": 30, "unit": "g"},
+      {"item": "egg", "qty": 1, "unit": "large"}
+    ],
+    "prep_time_min": 35,
+    "cuisines": ["Italian"],
+    "restrictions_safe": [],
+    "restrictions_contains": ["meat", "dairy", "gluten", "eggs"],
+    "meal_types": ["dinner"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "grilled_chicken_rice",
+    "name": "Grilled Chicken & Rice",
+    "macros": {"protein_g": 40, "carbs_g": 50, "fat_g": 8},
+    "calories": 432,
+    "ingredients": [
+      {"item": "chicken breast", "qty": 6, "unit": "oz"},
+      {"item": "white rice", "qty": 160, "unit": "g"},
+      {"item": "broccoli", "qty": 1, "unit": "cup"},
+      {"item": "olive oil", "qty": 1, "unit": "tsp"}
+    ],
+    "prep_time_min": 25,
+    "cuisines": ["American"],
+    "restrictions_safe": ["gluten_free", "dairy_free"],
+    "restrictions_contains": ["meat"],
+    "meal_types": ["lunch", "dinner"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "chicken_burrito_bowl_mexican",
+    "name": "Chicken Burrito Bowl",
+    "macros": {"protein_g": 40, "carbs_g": 55, "fat_g": 15},
+    "calories": 515,
+    "ingredients": [
+      {"item": "chicken thigh", "qty": 6, "unit": "oz"},
+      {"item": "brown rice", "qty": 150, "unit": "g"},
+      {"item": "black beans", "qty": 0.5, "unit": "cup"},
+      {"item": "salsa", "qty": 60, "unit": "g"},
+      {"item": "cheddar cheese", "qty": 25, "unit": "g"}
+    ],
+    "prep_time_min": 25,
+    "cuisines": ["Mexican"],
+    "restrictions_safe": ["gluten_free"],
+    "restrictions_contains": ["meat", "dairy"],
+    "meal_types": ["lunch", "dinner"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "beef_broccoli_asian",
+    "name": "Beef & Broccoli",
+    "macros": {"protein_g": 35, "carbs_g": 30, "fat_g": 18},
+    "calories": 422,
+    "ingredients": [
+      {"item": "flank steak", "qty": 6, "unit": "oz"},
+      {"item": "broccoli", "qty": 1.5, "unit": "cup"},
+      {"item": "jasmine rice", "qty": 120, "unit": "g"},
+      {"item": "soy sauce", "qty": 2, "unit": "tbsp"}
+    ],
+    "prep_time_min": 25,
+    "cuisines": ["Asian"],
+    "restrictions_safe": ["dairy_free"],
+    "restrictions_contains": ["meat", "soy", "gluten"],
+    "meal_types": ["dinner"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "pork_loin_sweet_potato",
+    "name": "Pork Loin with Sweet Potato",
+    "macros": {"protein_g": 38, "carbs_g": 35, "fat_g": 14},
+    "calories": 418,
+    "ingredients": [
+      {"item": "pork loin", "qty": 6, "unit": "oz"},
+      {"item": "sweet potato", "qty": 200, "unit": "g"},
+      {"item": "green beans", "qty": 1, "unit": "cup"},
+      {"item": "olive oil", "qty": 1, "unit": "tsp"}
+    ],
+    "prep_time_min": 30,
+    "cuisines": ["American"],
+    "restrictions_safe": ["gluten_free", "dairy_free"],
+    "restrictions_contains": ["meat", "pork"],
+    "meal_types": ["dinner"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "baked_salmon_quinoa",
+    "name": "Baked Salmon & Quinoa",
+    "macros": {"protein_g": 36, "carbs_g": 40, "fat_g": 18},
+    "calories": 466,
+    "ingredients": [
+      {"item": "salmon fillet", "qty": 6, "unit": "oz"},
+      {"item": "quinoa", "qty": 150, "unit": "g"},
+      {"item": "asparagus", "qty": 1, "unit": "cup"},
+      {"item": "olive oil", "qty": 1, "unit": "tsp"}
+    ],
+    "prep_time_min": 30,
+    "cuisines": ["Mediterranean"],
+    "restrictions_safe": ["gluten_free", "dairy_free"],
+    "restrictions_contains": ["fish"],
+    "meal_types": ["dinner"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "shrimp_stir_fry_asian",
+    "name": "Shrimp Stir Fry",
+    "macros": {"protein_g": 34, "carbs_g": 42, "fat_g": 9},
+    "calories": 385,
+    "ingredients": [
+      {"item": "shrimp", "qty": 6, "unit": "oz"},
+      {"item": "jasmine rice", "qty": 140, "unit": "g"},
+      {"item": "snap peas", "qty": 1, "unit": "cup"},
+      {"item": "soy sauce", "qty": 2, "unit": "tbsp"}
+    ],
+    "prep_time_min": 20,
+    "cuisines": ["Asian"],
+    "restrictions_safe": ["dairy_free"],
+    "restrictions_contains": ["shellfish", "soy", "gluten"],
+    "meal_types": ["lunch", "dinner"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "tofu_veggie_stir_fry_asian",
+    "name": "Tofu Veggie Stir Fry",
+    "macros": {"protein_g": 24, "carbs_g": 40, "fat_g": 14},
+    "calories": 382,
+    "ingredients": [
+      {"item": "firm tofu", "qty": 200, "unit": "g"},
+      {"item": "jasmine rice", "qty": 130, "unit": "g"},
+      {"item": "mixed vegetables", "qty": 1.5, "unit": "cup"},
+      {"item": "soy sauce", "qty": 2, "unit": "tbsp"}
+    ],
+    "prep_time_min": 20,
+    "cuisines": ["Asian"],
+    "restrictions_safe": ["vegetarian", "vegan", "dairy_free"],
+    "restrictions_contains": ["soy", "gluten"],
+    "meal_types": ["lunch", "dinner"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "lentil_curry_indian",
+    "name": "Lentil Curry",
+    "macros": {"protein_g": 20, "carbs_g": 50, "fat_g": 10},
+    "calories": 370,
+    "ingredients": [
+      {"item": "red lentils", "qty": 100, "unit": "g"},
+      {"item": "coconut milk", "qty": 100, "unit": "ml"},
+      {"item": "basmati rice", "qty": 120, "unit": "g"},
+      {"item": "curry spices", "qty": 1, "unit": "tbsp"}
+    ],
+    "prep_time_min": 30,
+    "cuisines": ["Indian"],
+    "restrictions_safe": ["vegetarian", "vegan", "gluten_free", "dairy_free"],
+    "restrictions_contains": [],
+    "meal_types": ["lunch", "dinner"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "chickpea_pasta_italian",
+    "name": "Chickpea Pasta with Marinara",
+    "macros": {"protein_g": 25, "carbs_g": 60, "fat_g": 12},
+    "calories": 448,
+    "ingredients": [
+      {"item": "chickpea pasta", "qty": 100, "unit": "g"},
+      {"item": "marinara sauce", "qty": 150, "unit": "g"},
+      {"item": "olive oil", "qty": 1, "unit": "tbsp"},
+      {"item": "basil", "qty": 1, "unit": "tbsp"}
+    ],
+    "prep_time_min": 20,
+    "cuisines": ["Italian"],
+    "restrictions_safe": ["vegetarian", "vegan", "gluten_free", "dairy_free"],
+    "restrictions_contains": [],
+    "meal_types": ["lunch", "dinner"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "tuna_rice_bowl",
+    "name": "Tuna Rice Bowl",
+    "macros": {"protein_g": 35, "carbs_g": 45, "fat_g": 6},
+    "calories": 374,
+    "ingredients": [
+      {"item": "canned tuna", "qty": 1, "unit": "can"},
+      {"item": "white rice", "qty": 150, "unit": "g"},
+      {"item": "cucumber", "qty": 0.5, "unit": "cup"},
+      {"item": "soy sauce", "qty": 1, "unit": "tbsp"}
+    ],
+    "prep_time_min": 10,
+    "cuisines": ["Asian"],
+    "restrictions_safe": ["dairy_free"],
+    "restrictions_contains": ["fish", "soy", "gluten"],
+    "meal_types": ["lunch"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "cottage_cheese_fruit",
+    "name": "Cottage Cheese & Fruit",
+    "macros": {"protein_g": 24, "carbs_g": 20, "fat_g": 4},
+    "calories": 212,
+    "ingredients": [
+      {"item": "cottage cheese", "qty": 200, "unit": "g"},
+      {"item": "pineapple", "qty": 100, "unit": "g"}
+    ],
+    "prep_time_min": 3,
+    "cuisines": ["American"],
+    "restrictions_safe": ["vegetarian", "gluten_free"],
+    "restrictions_contains": ["dairy"],
+    "meal_types": ["snack"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "protein_shake",
+    "name": "Protein Shake",
+    "macros": {"protein_g": 30, "carbs_g": 10, "fat_g": 3},
+    "calories": 187,
+    "ingredients": [
+      {"item": "whey protein", "qty": 1, "unit": "scoop"},
+      {"item": "milk", "qty": 250, "unit": "ml"}
+    ],
+    "prep_time_min": 2,
+    "cuisines": ["American"],
+    "restrictions_safe": ["vegetarian", "gluten_free"],
+    "restrictions_contains": ["dairy"],
+    "meal_types": ["snack"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "turkey_wrap",
+    "name": "Turkey & Cheese Wrap",
+    "macros": {"protein_g": 32, "carbs_g": 35, "fat_g": 12},
+    "calories": 376,
+    "ingredients": [
+      {"item": "turkey breast", "qty": 5, "unit": "oz"},
+      {"item": "whole wheat tortilla", "qty": 1, "unit": "large"},
+      {"item": "cheddar cheese", "qty": 20, "unit": "g"},
+      {"item": "lettuce", "qty": 1, "unit": "cup"}
+    ],
+    "prep_time_min": 8,
+    "cuisines": ["American"],
+    "restrictions_safe": [],
+    "restrictions_contains": ["meat", "dairy", "gluten"],
+    "meal_types": ["lunch"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  },
+  {
+    "recipe_id": "beef_chili",
+    "name": "Beef Chili",
+    "macros": {"protein_g": 35, "carbs_g": 40, "fat_g": 15},
+    "calories": 435,
+    "ingredients": [
+      {"item": "lean ground beef", "qty": 6, "unit": "oz"},
+      {"item": "kidney beans", "qty": 0.75, "unit": "cup"},
+      {"item": "diced tomatoes", "qty": 200, "unit": "g"},
+      {"item": "chili spices", "qty": 1, "unit": "tbsp"}
+    ],
+    "prep_time_min": 35,
+    "cuisines": ["Mexican", "American"],
+    "restrictions_safe": ["gluten_free", "dairy_free"],
+    "restrictions_contains": ["meat"],
+    "meal_types": ["lunch", "dinner"],
+    "macro_source": "Estimated; pending spot-check vs USDA/MyFitnessPal"
+  }
+]
