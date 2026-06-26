@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+
+# Local user data (plans are local-only, never committed)
+plans/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
