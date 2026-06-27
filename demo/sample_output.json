@@ -1,1 +1,868 @@
-{}
+{
+  "macro_targets": {
+    "calories": 3102,
+    "protein_g": 233
+  },
+  "days": [
+    {
+      "day": 1,
+      "meals": [
+        {
+          "slot": "breakfast",
+          "recipe_id": "protein_pancakes",
+          "name": "Protein Pancakes",
+          "servings": 1.96,
+          "macros": {
+            "protein_g": 59,
+            "carbs_g": 88,
+            "fat_g": 18
+          },
+          "calories": 747
+        },
+        {
+          "slot": "lunch",
+          "recipe_id": "salmon_poke_bowl_asian",
+          "name": "Salmon Poke Bowl",
+          "servings": 1.96,
+          "macros": {
+            "protein_g": 69,
+            "carbs_g": 88,
+            "fat_g": 29
+          },
+          "calories": 892
+        },
+        {
+          "slot": "dinner",
+          "recipe_id": "chicken_pesto_pasta_italian",
+          "name": "Chicken Pesto Pasta",
+          "servings": 1.96,
+          "macros": {
+            "protein_g": 82,
+            "carbs_g": 108,
+            "fat_g": 35
+          },
+          "calories": 1078
+        },
+        {
+          "slot": "snack",
+          "recipe_id": "edamame_vegan",
+          "name": "Salted Edamame",
+          "servings": 1.96,
+          "macros": {
+            "protein_g": 33,
+            "carbs_g": 29,
+            "fat_g": 16
+          },
+          "calories": 392
+        }
+      ],
+      "day_totals": {
+        "calories": 3109,
+        "protein_g": 243,
+        "carbs_g": 313,
+        "fat_g": 98
+      },
+      "on_target": true
+    },
+    {
+      "day": 2,
+      "meals": [
+        {
+          "slot": "breakfast",
+          "recipe_id": "oats_whey_banana",
+          "name": "Oats + Whey + Banana",
+          "servings": 1.82,
+          "macros": {
+            "protein_g": 66,
+            "carbs_g": 124,
+            "fat_g": 18
+          },
+          "calories": 921
+        },
+        {
+          "slot": "lunch",
+          "recipe_id": "tofu_veggie_stir_fry_asian",
+          "name": "Tofu Veggie Stir Fry",
+          "servings": 1.82,
+          "macros": {
+            "protein_g": 44,
+            "carbs_g": 73,
+            "fat_g": 25
+          },
+          "calories": 695
+        },
+        {
+          "slot": "dinner",
+          "recipe_id": "shrimp_pasta_italian",
+          "name": "Shrimp Scampi Pasta",
+          "servings": 1.82,
+          "macros": {
+            "protein_g": 62,
+            "carbs_g": 100,
+            "fat_g": 25
+          },
+          "calories": 877
+        },
+        {
+          "slot": "snack",
+          "recipe_id": "sardines_toast",
+          "name": "Sardines on Toast",
+          "servings": 1.82,
+          "macros": {
+            "protein_g": 46,
+            "carbs_g": 46,
+            "fat_g": 27
+          },
+          "calories": 610
+        }
+      ],
+      "day_totals": {
+        "calories": 3103,
+        "protein_g": 218,
+        "carbs_g": 343,
+        "fat_g": 95
+      },
+      "on_target": true
+    },
+    {
+      "day": 3,
+      "meals": [
+        {
+          "slot": "breakfast",
+          "recipe_id": "protein_pancakes",
+          "name": "Protein Pancakes",
+          "servings": 1.96,
+          "macros": {
+            "protein_g": 59,
+            "carbs_g": 88,
+            "fat_g": 18
+          },
+          "calories": 747
+        },
+        {
+          "slot": "lunch",
+          "recipe_id": "salmon_poke_bowl_asian",
+          "name": "Salmon Poke Bowl",
+          "servings": 1.96,
+          "macros": {
+            "protein_g": 69,
+            "carbs_g": 88,
+            "fat_g": 29
+          },
+          "calories": 892
+        },
+        {
+          "slot": "dinner",
+          "recipe_id": "chicken_pesto_pasta_italian",
+          "name": "Chicken Pesto Pasta",
+          "servings": 1.96,
+          "macros": {
+            "protein_g": 82,
+            "carbs_g": 108,
+            "fat_g": 35
+          },
+          "calories": 1078
+        },
+        {
+          "slot": "snack",
+          "recipe_id": "edamame_vegan",
+          "name": "Salted Edamame",
+          "servings": 1.96,
+          "macros": {
+            "protein_g": 33,
+            "carbs_g": 29,
+            "fat_g": 16
+          },
+          "calories": 392
+        }
+      ],
+      "day_totals": {
+        "calories": 3109,
+        "protein_g": 243,
+        "carbs_g": 313,
+        "fat_g": 98
+      },
+      "on_target": true
+    },
+    {
+      "day": 4,
+      "meals": [
+        {
+          "slot": "breakfast",
+          "recipe_id": "oats_whey_banana",
+          "name": "Oats + Whey + Banana",
+          "servings": 1.82,
+          "macros": {
+            "protein_g": 66,
+            "carbs_g": 124,
+            "fat_g": 18
+          },
+          "calories": 921
+        },
+        {
+          "slot": "lunch",
+          "recipe_id": "tofu_veggie_stir_fry_asian",
+          "name": "Tofu Veggie Stir Fry",
+          "servings": 1.82,
+          "macros": {
+            "protein_g": 44,
+            "carbs_g": 73,
+            "fat_g": 25
+          },
+          "calories": 695
+        },
+        {
+          "slot": "dinner",
+          "recipe_id": "shrimp_pasta_italian",
+          "name": "Shrimp Scampi Pasta",
+          "servings": 1.82,
+          "macros": {
+            "protein_g": 62,
+            "carbs_g": 100,
+            "fat_g": 25
+          },
+          "calories": 877
+        },
+        {
+          "slot": "snack",
+          "recipe_id": "sardines_toast",
+          "name": "Sardines on Toast",
+          "servings": 1.82,
+          "macros": {
+            "protein_g": 46,
+            "carbs_g": 46,
+            "fat_g": 27
+          },
+          "calories": 610
+        }
+      ],
+      "day_totals": {
+        "calories": 3103,
+        "protein_g": 218,
+        "carbs_g": 343,
+        "fat_g": 95
+      },
+      "on_target": true
+    },
+    {
+      "day": 5,
+      "meals": [
+        {
+          "slot": "breakfast",
+          "recipe_id": "cottage_cheese_toast",
+          "name": "Cottage Cheese Toast",
+          "servings": 2.28,
+          "macros": {
+            "protein_g": 57,
+            "carbs_g": 80,
+            "fat_g": 18
+          },
+          "calories": 711
+        },
+        {
+          "slot": "lunch",
+          "recipe_id": "shrimp_stir_fry_asian",
+          "name": "Shrimp Stir Fry",
+          "servings": 2.28,
+          "macros": {
+            "protein_g": 78,
+            "carbs_g": 96,
+            "fat_g": 21
+          },
+          "calories": 878
+        },
+        {
+          "slot": "dinner",
+          "recipe_id": "beef_broccoli_asian",
+          "name": "Beef & Broccoli",
+          "servings": 2.28,
+          "macros": {
+            "protein_g": 80,
+            "carbs_g": 68,
+            "fat_g": 41
+          },
+          "calories": 962
+        },
+        {
+          "slot": "snack",
+          "recipe_id": "boiled_eggs_fruit",
+          "name": "Boiled Eggs & Orange",
+          "servings": 2.28,
+          "macros": {
+            "protein_g": 41,
+            "carbs_g": 46,
+            "fat_g": 23
+          },
+          "calories": 552
+        }
+      ],
+      "day_totals": {
+        "calories": 3103,
+        "protein_g": 256,
+        "carbs_g": 290,
+        "fat_g": 103
+      },
+      "on_target": false
+    },
+    {
+      "day": 6,
+      "meals": [
+        {
+          "slot": "breakfast",
+          "recipe_id": "tofu_scramble_vegan",
+          "name": "Tofu Scramble",
+          "servings": 2.22,
+          "macros": {
+            "protein_g": 49,
+            "carbs_g": 27,
+            "fat_g": 31
+          },
+          "calories": 582
+        },
+        {
+          "slot": "lunch",
+          "recipe_id": "chicken_stir_fry_asian",
+          "name": "Chicken Stir Fry",
+          "servings": 2.22,
+          "macros": {
+            "protein_g": 84,
+            "carbs_g": 100,
+            "fat_g": 22
+          },
+          "calories": 937
+        },
+        {
+          "slot": "dinner",
+          "recipe_id": "honey_garlic_chicken_rice",
+          "name": "Honey Garlic Chicken & Rice",
+          "servings": 2.22,
+          "macros": {
+            "protein_g": 89,
+            "carbs_g": 122,
+            "fat_g": 22
+          },
+          "calories": 1043
+        },
+        {
+          "slot": "snack",
+          "recipe_id": "protein_bar",
+          "name": "Protein Bar",
+          "servings": 2.22,
+          "macros": {
+            "protein_g": 44,
+            "carbs_g": 56,
+            "fat_g": 16
+          },
+          "calories": 539
+        }
+      ],
+      "day_totals": {
+        "calories": 3101,
+        "protein_g": 266,
+        "carbs_g": 305,
+        "fat_g": 91
+      },
+      "on_target": false
+    },
+    {
+      "day": 7,
+      "meals": [
+        {
+          "slot": "breakfast",
+          "recipe_id": "cottage_cheese_toast",
+          "name": "Cottage Cheese Toast",
+          "servings": 2.28,
+          "macros": {
+            "protein_g": 57,
+            "carbs_g": 80,
+            "fat_g": 18
+          },
+          "calories": 711
+        },
+        {
+          "slot": "lunch",
+          "recipe_id": "shrimp_stir_fry_asian",
+          "name": "Shrimp Stir Fry",
+          "servings": 2.28,
+          "macros": {
+            "protein_g": 78,
+            "carbs_g": 96,
+            "fat_g": 21
+          },
+          "calories": 878
+        },
+        {
+          "slot": "dinner",
+          "recipe_id": "beef_broccoli_asian",
+          "name": "Beef & Broccoli",
+          "servings": 2.28,
+          "macros": {
+            "protein_g": 80,
+            "carbs_g": 68,
+            "fat_g": 41
+          },
+          "calories": 962
+        },
+        {
+          "slot": "snack",
+          "recipe_id": "boiled_eggs_fruit",
+          "name": "Boiled Eggs & Orange",
+          "servings": 2.28,
+          "macros": {
+            "protein_g": 41,
+            "carbs_g": 46,
+            "fat_g": 23
+          },
+          "calories": 552
+        }
+      ],
+      "day_totals": {
+        "calories": 3103,
+        "protein_g": 256,
+        "carbs_g": 290,
+        "fat_g": 103
+      },
+      "on_target": false
+    }
+  ],
+  "shopping_list": [
+    {
+      "item": "cottage cheese",
+      "qty": 684.0,
+      "unit": "g",
+      "category": "dairy"
+    },
+    {
+      "item": "milk",
+      "qty": 1380.4,
+      "unit": "ml",
+      "category": "dairy"
+    },
+    {
+      "item": "parmesan",
+      "qty": 58.8,
+      "unit": "g",
+      "category": "dairy"
+    },
+    {
+      "item": "banana",
+      "qty": 3.64,
+      "unit": "medium",
+      "category": "fruit"
+    },
+    {
+      "item": "lemon",
+      "qty": 1.82,
+      "unit": "piece",
+      "category": "fruit"
+    },
+    {
+      "item": "orange",
+      "qty": 4.56,
+      "unit": "medium",
+      "category": "fruit"
+    },
+    {
+      "item": "jasmine rice",
+      "qty": 1991.8,
+      "unit": "g",
+      "category": "grains"
+    },
+    {
+      "item": "oat flour",
+      "qty": 196.0,
+      "unit": "g",
+      "category": "grains"
+    },
+    {
+      "item": "pasta",
+      "qty": 756.0,
+      "unit": "g",
+      "category": "grains"
+    },
+    {
+      "item": "rolled oats",
+      "qty": 218.4,
+      "unit": "g",
+      "category": "grains"
+    },
+    {
+      "item": "sushi rice",
+      "qty": 588.0,
+      "unit": "g",
+      "category": "grains"
+    },
+    {
+      "item": "white rice",
+      "qty": 355.2,
+      "unit": "g",
+      "category": "grains"
+    },
+    {
+      "item": "whole grain bread",
+      "qty": 16.4,
+      "unit": "slice",
+      "category": "grains"
+    },
+    {
+      "item": "garlic",
+      "qty": 7.28,
+      "unit": "clove",
+      "category": "pantry"
+    },
+    {
+      "item": "honey",
+      "qty": 2.22,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "nutritional yeast",
+      "qty": 2.22,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "olive oil",
+      "qty": 3.64,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "pesto",
+      "qty": 7.84,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "sea salt",
+      "qty": 3.92,
+      "unit": "pinch",
+      "category": "pantry"
+    },
+    {
+      "item": "soy sauce",
+      "qty": 36.1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "turmeric",
+      "qty": 1.11,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "chicken breast",
+      "qty": 36.84,
+      "unit": "oz",
+      "category": "protein"
+    },
+    {
+      "item": "chicken thigh",
+      "qty": 13.32,
+      "unit": "oz",
+      "category": "protein"
+    },
+    {
+      "item": "edamame",
+      "qty": 1.96,
+      "unit": "cup",
+      "category": "protein"
+    },
+    {
+      "item": "edamame",
+      "qty": 588.0,
+      "unit": "g",
+      "category": "protein"
+    },
+    {
+      "item": "egg",
+      "qty": 3.92,
+      "unit": "large",
+      "category": "protein"
+    },
+    {
+      "item": "eggs",
+      "qty": 9.12,
+      "unit": "large",
+      "category": "protein"
+    },
+    {
+      "item": "firm tofu",
+      "qty": 1172.0,
+      "unit": "g",
+      "category": "protein"
+    },
+    {
+      "item": "flank steak",
+      "qty": 27.36,
+      "unit": "oz",
+      "category": "protein"
+    },
+    {
+      "item": "protein bar",
+      "qty": 2.22,
+      "unit": "bar",
+      "category": "protein"
+    },
+    {
+      "item": "salmon",
+      "qty": 19.6,
+      "unit": "oz",
+      "category": "protein"
+    },
+    {
+      "item": "sardines",
+      "qty": 3.64,
+      "unit": "can",
+      "category": "protein"
+    },
+    {
+      "item": "shrimp",
+      "qty": 49.2,
+      "unit": "oz",
+      "category": "protein"
+    },
+    {
+      "item": "whey protein",
+      "qty": 7.56,
+      "unit": "scoop",
+      "category": "protein"
+    },
+    {
+      "item": "broccoli",
+      "qty": 6.84,
+      "unit": "cup",
+      "category": "vegetables"
+    },
+    {
+      "item": "mixed vegetables",
+      "qty": 7.68,
+      "unit": "cup",
+      "category": "vegetables"
+    },
+    {
+      "item": "snap peas",
+      "qty": 4.56,
+      "unit": "cup",
+      "category": "vegetables"
+    },
+    {
+      "item": "spinach",
+      "qty": 2.22,
+      "unit": "cup",
+      "category": "vegetables"
+    },
+    {
+      "item": "tomato",
+      "qty": 4.56,
+      "unit": "small",
+      "category": "vegetables"
+    }
+  ],
+  "warnings": [
+    "Day 5: totals 3103 cal / 256g protein outside tolerance of 3102 cal / 233g.",
+    "Day 6: totals 3101 cal / 266g protein outside tolerance of 3102 cal / 233g.",
+    "Day 7: totals 3103 cal / 256g protein outside tolerance of 3102 cal / 233g."
+  ],
+  "plan_id": "plan_sample_bulk_male",
+  "generated_for": {
+    "goal": "bulk",
+    "weight_lbs": 180,
+    "height_inches": 70,
+    "age": 25,
+    "sex": "M",
+    "activity_level": "moderate"
+  },
+  "workout": {
+    "template_id": "upper_lower_5day",
+    "name": "Upper/Lower Split - 5 Day",
+    "experience_levels": [
+      "intermediate",
+      "advanced"
+    ],
+    "days_per_week": 5,
+    "days": [
+      {
+        "day": 1,
+        "name": "Upper A",
+        "focus": "strength",
+        "exercises": [
+          {
+            "name": "Bench Press",
+            "sets": 4,
+            "reps": "5-6",
+            "notes": "Main compound; RPE 8"
+          },
+          {
+            "name": "Barbell Row",
+            "sets": 4,
+            "reps": "5-6",
+            "notes": "Horizontal pull counterpart"
+          },
+          {
+            "name": "Overhead Press",
+            "sets": 3,
+            "reps": "8-10"
+          },
+          {
+            "name": "Pull-ups",
+            "sets": 3,
+            "reps": "8-10"
+          },
+          {
+            "name": "Lateral Raises",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Tricep Pushdown",
+            "sets": 3,
+            "reps": "12-15"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "name": "Lower A",
+        "focus": "strength",
+        "exercises": [
+          {
+            "name": "Back Squat",
+            "sets": 4,
+            "reps": "5-6",
+            "notes": "RPE 8"
+          },
+          {
+            "name": "Romanian Deadlift",
+            "sets": 3,
+            "reps": "8-10"
+          },
+          {
+            "name": "Leg Press",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Leg Curl",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Standing Calf Raise",
+            "sets": 4,
+            "reps": "12-15"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "name": "Upper B",
+        "focus": "hypertrophy",
+        "exercises": [
+          {
+            "name": "Incline Dumbbell Press",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Seated Cable Row",
+            "sets": 4,
+            "reps": "10-12"
+          },
+          {
+            "name": "Lat Pulldown",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Cable Fly",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Face Pulls",
+            "sets": 3,
+            "reps": "15-20"
+          },
+          {
+            "name": "Dumbbell Curl",
+            "sets": 3,
+            "reps": "12-15"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "name": "Lower B",
+        "focus": "hypertrophy",
+        "exercises": [
+          {
+            "name": "Front Squat",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Hip Thrust",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Walking Lunges",
+            "sets": 3,
+            "reps": "12 each"
+          },
+          {
+            "name": "Leg Extension",
+            "sets": 3,
+            "reps": "15"
+          },
+          {
+            "name": "Seated Calf Raise",
+            "sets": 4,
+            "reps": "15-20"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "name": "Arms & Accessories",
+        "focus": "hypertrophy",
+        "exercises": [
+          {
+            "name": "Close-Grip Bench Press",
+            "sets": 3,
+            "reps": "8-10"
+          },
+          {
+            "name": "Barbell Curl",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Overhead Tricep Extension",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Hammer Curl",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Lateral Raises",
+            "sets": 4,
+            "reps": "15-20"
+          }
+        ]
+      }
+    ],
+    "selected_for": {
+      "experience_level": "intermediate",
+      "days_per_week": 5,
+      "split_preference": "auto"
+    },
+    "selection_note": "Auto-selected for 5 training days/week."
+  }
+}
