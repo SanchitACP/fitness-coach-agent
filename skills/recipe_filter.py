@@ -215,6 +215,7 @@ def filter_recipes(
     prep_time_max: int,
     days: int = 7,
     meals_per_day: int = 4,
+    variety: str = "varied",
     recipes: list = None,
 ) -> dict:
     """Select recipes matching macro targets and preferences.
@@ -228,6 +229,9 @@ def filter_recipes(
         prep_time_max: max prep minutes per recipe.
         days: number of days to plan (default 7).
         meals_per_day: meals per day (default 4: breakfast/lunch/dinner/snack).
+        variety: 'varied' (default) rotates meals and avoids repeating a recipe on
+            back-to-back days; 'simple' is meal-prep style — one recipe per slot
+            reused every day. This is a user preference, so the agent should ask.
         recipes: optional pre-loaded recipe list (mainly for tests).
 
     Returns:
@@ -266,20 +270,44 @@ def filter_recipes(
     usage = {}
     selected = []  # list of (recipe, servings) for the shopping list
     out_days = []
+    prev_ids = set()  # recipes used on the previous day (varied mode)
+    simple = (variety or "varied").strip().lower() == "simple"
 
-    for day in range(1, days + 1):
-        picks = []  # (slot, recipe) chosen this day, before scaling
+    # Meal-prep mode: choose one recipe per slot once, then reuse it every day.
+    fixed_picks = None
+    if simple:
+        fixed_picks = []
         day_used = set()
         for slot, _frac in plan:
             pool = slot_pool(slot, drop_dislikes=True)
             choice = _pick(pool, target_ratio, usage, cuisines, day_used)
             if choice is None:
-                warnings.append(f"Day {day}: no recipe available for '{slot}' "
-                                f"within the given constraints.")
+                warnings.append(f"No recipe available for '{slot}' within the "
+                                f"given constraints.")
                 continue
-            usage[choice["recipe_id"]] = usage.get(choice["recipe_id"], 0) + 1
             day_used.add(choice["recipe_id"])
-            picks.append((slot, choice))
+            fixed_picks.append((slot, choice))
+
+    for day in range(1, days + 1):
+        if simple:
+            picks = list(fixed_picks)  # same meals every day, by design
+        else:
+            picks = []  # (slot, recipe) chosen this day, before scaling
+            day_used = set()
+            for slot, _frac in plan:
+                pool = slot_pool(slot, drop_dislikes=True)
+                # Avoid repeating a recipe within the day and (softly) on
+                # back-to-back days, so the week rotates instead of pairing up.
+                choice = _pick(pool, target_ratio, usage, cuisines,
+                               day_used | prev_ids)
+                if choice is None:
+                    warnings.append(f"Day {day}: no recipe available for "
+                                    f"'{slot}' within the given constraints.")
+                    continue
+                usage[choice["recipe_id"]] = usage.get(choice["recipe_id"], 0) + 1
+                day_used.add(choice["recipe_id"])
+                picks.append((slot, choice))
+            prev_ids = day_used
 
         # Portion-scale the whole day to hit the calorie target.
         raw_cal = sum(r["calories"] for _, r in picks)

@@ -37,6 +37,12 @@ Two rules to honor when building `filter_recipes()`:
 The recipe set is sized so the common diets clear these bars (see coverage
 below), but narrow stacked constraints can still thin a pool.
 
+3. **Variety is a user preference, not a fixed rule.** `filter_recipes(variety=)`
+   supports `varied` (default — rotates meals, no back-to-back repeats, max 2/week)
+   and `simple` (meal-prep — one recipe per slot reused every day). Neither is
+   "right"; the agent should ASK the user which they prefer (Sprint 1d clarifying
+   question) rather than assume.
+
 ## Status
 70 recipes (full target). Coverage verified so no diet x meal-slot combination is
 starved (the earlier gap: vegan had 0 breakfast/snack options). Available per

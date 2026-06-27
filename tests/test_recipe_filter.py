@@ -122,6 +122,32 @@ def test_no_same_day_repeats():
         assert len(ids) == len(set(ids)), f"day {day['day']} has a repeat"
 
 
+def test_varied_mode_avoids_back_to_back_identical_days():
+    """Default 'varied' must not repeat the same recipe on consecutive days."""
+    res = filter_recipes(
+        macro_targets={"calories": 2880, "protein_g": 180},
+        cuisines=[], restrictions=[], dislikes=[], prep_time_max=60,
+    )
+    sigs = [tuple(m["recipe_id"] for m in d["meals"]) for d in res["days"]]
+    for i in range(len(sigs) - 1):
+        # no recipe shared between adjacent days (true rotation)
+        assert not (set(sigs[i]) & set(sigs[i + 1])), f"days {i+1}/{i+2} overlap"
+
+
+def test_simple_mode_repeats_same_recipe_per_slot():
+    """Meal-prep 'simple' reuses one recipe per slot every day."""
+    res = filter_recipes(
+        macro_targets={"calories": 2880, "protein_g": 180},
+        cuisines=[], restrictions=[], dislikes=[], prep_time_max=60,
+        variety="simple",
+    )
+    by_slot = {}
+    for day in res["days"]:
+        for meal in day["meals"]:
+            by_slot.setdefault(meal["slot"], set()).add(meal["recipe_id"])
+    assert all(len(ids) == 1 for ids in by_slot.values()), by_slot
+
+
 # --------------------------------------------------------------------------- #
 # Macro targeting (portion scaling)
 # --------------------------------------------------------------------------- #
