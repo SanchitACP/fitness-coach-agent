@@ -1,0 +1,80 @@
+{
+  "template_id": "ppl_6day",
+  "name": "Push/Pull/Legs - 6 Day",
+  "experience_levels": ["intermediate", "advanced"],
+  "days_per_week": 6,
+  "days": [
+    {
+      "day": 1,
+      "name": "Push A",
+      "focus": "strength",
+      "exercises": [
+        {"name": "Bench Press", "sets": 4, "reps": "5-6", "notes": "RPE 8"},
+        {"name": "Overhead Press", "sets": 3, "reps": "8-10"},
+        {"name": "Incline Dumbbell Press", "sets": 3, "reps": "10-12"},
+        {"name": "Lateral Raises", "sets": 4, "reps": "12-15"},
+        {"name": "Tricep Pushdown", "sets": 3, "reps": "12-15"}
+      ]
+    },
+    {
+      "day": 2,
+      "name": "Pull A",
+      "focus": "strength",
+      "exercises": [
+        {"name": "Deadlift", "sets": 3, "reps": "5", "notes": "RPE 8"},
+        {"name": "Pull-ups", "sets": 4, "reps": "6-10"},
+        {"name": "Barbell Row", "sets": 3, "reps": "8-10"},
+        {"name": "Face Pulls", "sets": 3, "reps": "15-20"},
+        {"name": "Barbell Curl", "sets": 3, "reps": "10-12"}
+      ]
+    },
+    {
+      "day": 3,
+      "name": "Legs A",
+      "focus": "strength",
+      "exercises": [
+        {"name": "Back Squat", "sets": 4, "reps": "5-6", "notes": "RPE 8"},
+        {"name": "Romanian Deadlift", "sets": 3, "reps": "8-10"},
+        {"name": "Leg Press", "sets": 3, "reps": "10-12"},
+        {"name": "Leg Curl", "sets": 3, "reps": "12-15"},
+        {"name": "Standing Calf Raise", "sets": 4, "reps": "12-15"}
+      ]
+    },
+    {
+      "day": 4,
+      "name": "Push B",
+      "focus": "hypertrophy",
+      "exercises": [
+        {"name": "Incline Barbell Press", "sets": 4, "reps": "8-10"},
+        {"name": "Seated Dumbbell Press", "sets": 3, "reps": "10-12"},
+        {"name": "Cable Fly", "sets": 3, "reps": "12-15"},
+        {"name": "Lateral Raises", "sets": 4, "reps": "15-20"},
+        {"name": "Overhead Tricep Extension", "sets": 3, "reps": "12-15"}
+      ]
+    },
+    {
+      "day": 5,
+      "name": "Pull B",
+      "focus": "hypertrophy",
+      "exercises": [
+        {"name": "Lat Pulldown", "sets": 4, "reps": "10-12"},
+        {"name": "Seated Cable Row", "sets": 4, "reps": "10-12"},
+        {"name": "Dumbbell Row", "sets": 3, "reps": "10-12"},
+        {"name": "Rear Delt Fly", "sets": 3, "reps": "15-20"},
+        {"name": "Hammer Curl", "sets": 3, "reps": "12-15"}
+      ]
+    },
+    {
+      "day": 6,
+      "name": "Legs B",
+      "focus": "hypertrophy",
+      "exercises": [
+        {"name": "Front Squat", "sets": 4, "reps": "8-10"},
+        {"name": "Hip Thrust", "sets": 3, "reps": "10-12"},
+        {"name": "Walking Lunges", "sets": 3, "reps": "12 each"},
+        {"name": "Leg Extension", "sets": 3, "reps": "15"},
+        {"name": "Seated Calf Raise", "sets": 4, "reps": "15-20"}
+      ]
+    }
+  ]
+}

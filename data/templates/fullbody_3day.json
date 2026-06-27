@@ -1,0 +1,44 @@
+{
+  "template_id": "fullbody_3day",
+  "name": "Full Body - 3 Day",
+  "experience_levels": ["beginner", "intermediate"],
+  "days_per_week": 3,
+  "days": [
+    {
+      "day": 1,
+      "name": "Full Body A",
+      "focus": "strength",
+      "exercises": [
+        {"name": "Back Squat", "sets": 3, "reps": "5", "notes": "Main lower compound; RPE 7-8"},
+        {"name": "Bench Press", "sets": 3, "reps": "5", "notes": "Main horizontal push"},
+        {"name": "Barbell Row", "sets": 3, "reps": "8-10", "notes": "Horizontal pull"},
+        {"name": "Overhead Press", "sets": 2, "reps": "8-10"},
+        {"name": "Plank", "sets": 3, "reps": "30-45s"}
+      ]
+    },
+    {
+      "day": 2,
+      "name": "Full Body B",
+      "focus": "hypertrophy",
+      "exercises": [
+        {"name": "Deadlift", "sets": 2, "reps": "5", "notes": "Hinge; leave 1-2 reps in reserve"},
+        {"name": "Incline Dumbbell Press", "sets": 3, "reps": "8-12"},
+        {"name": "Lat Pulldown", "sets": 3, "reps": "10-12", "notes": "Vertical pull"},
+        {"name": "Leg Press", "sets": 3, "reps": "12-15"},
+        {"name": "Dumbbell Curl", "sets": 2, "reps": "12-15"}
+      ]
+    },
+    {
+      "day": 3,
+      "name": "Full Body C",
+      "focus": "hypertrophy",
+      "exercises": [
+        {"name": "Front Squat", "sets": 3, "reps": "8", "notes": "Quad-biased"},
+        {"name": "Dumbbell Bench Press", "sets": 3, "reps": "10-12"},
+        {"name": "Seated Cable Row", "sets": 3, "reps": "10-12"},
+        {"name": "Lateral Raises", "sets": 3, "reps": "12-15"},
+        {"name": "Tricep Pushdown", "sets": 2, "reps": "12-15"}
+      ]
+    }
+  ]
+}
