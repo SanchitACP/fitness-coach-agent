@@ -77,7 +77,10 @@ example, and [docs/recipe_list.md](docs/recipe_list.md) for the recipe database.
 | **MCP Server** | Local file MCP saves plans; Calendar MCP stub for Phase 2 | [mcp/file_storage.py](mcp/file_storage.py), [mcp/calendar_sync.py](mcp/calendar_sync.py) |
 | **Security** | Env-only keys, no PII in logs, local storage, input sanitization, session clearing | [main.py](main.py), [utils/validators.py](utils/validators.py), [SECURITY.md](SECURITY.md) |
 | **Deployability** | One command (`python main.py`); cloud = clone + set env + run | this README + video |
-| **Antigravity** | Polished UI wrapper shown in the demo video | video only |
+
+The demo is shown through **ADK's built-in web UI** (`python run_web.py`) — see
+[docs/demo_adk_web.md](docs/demo_adk_web.md). The plain CLI (`python main.py`) is
+the lightweight alternative.
 
 ## Design decisions
 
