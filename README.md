@@ -22,7 +22,7 @@ week of workouts.
 git clone https://github.com/<you>/fitness-coach-agent.git
 cd fitness-coach-agent
 pip install -r requirements.txt
-cp .env.example .env   # then add your ADK_API_KEY
+cp .env.example .env   # then add your ANTHROPIC_API_KEY
 python main.py
 ```
 

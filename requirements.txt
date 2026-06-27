@@ -1,4 +1,7 @@
-google-adk==2.0.0
-pandas==2.0.0
-python-dotenv==1.0.0
-pytest==7.4.0
+# Google ADK with extensions — extensions pulls in LiteLLM, which is how Claude
+# runs as the LLM backend inside ADK (model=LiteLlm("anthropic/claude-...")).
+google-adk[extensions]==2.0.0
+litellm==1.83.7
+pandas==2.3.3
+python-dotenv==1.0.1
+pytest>=7.4.0
